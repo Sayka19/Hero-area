@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.full{
+    display:flex;
+    justify-content:center;
+    padding:230px;
+}
+img{
+    height:320px;
+}
+.textarea{
+    margin-right:60px;
+}
+.textarea h1{
+    font-size:46px;
+    margin-bottom:15px;
+}
+.buttons{
+   display:flex;
+}
+.fbutton a:link{
+       text-decoration:none;
+       color:black;
+}
+.sbutton a:link{
+    text-decoration:none;
+    color:black;
+}
+.fbutton{
+    background-color:white;
+    margin-right:50px;
+    box-shadow:3px 3px 15px 0px rgba(0,0,0,0.15);
+    padding:13px 25px;
+}
+.sbutton{
+    background-color:blue;
+    padding:13px 25px;
+}
